@@ -9,4 +9,4 @@ steps:
     commands:
       - pip install poetry
       - poetry install --with dev
-      - pytest
+      - poetry run pytest
